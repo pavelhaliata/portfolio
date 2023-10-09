@@ -1,0 +1,17 @@
+@import "../../styles/media-queries";
+
+.container{
+  max-width: 1142px;
+  margin: 0 auto;
+  padding: 0 16px;
+  //border: var(--primary-color) 1px solid;
+  @include large-screen{
+    padding: 0 32px;
+  }
+  @include medium-screen{
+    padding: 0 32px;
+  }
+  @include small-screen{
+
+  }
+}

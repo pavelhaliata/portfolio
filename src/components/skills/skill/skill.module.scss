@@ -1,0 +1,35 @@
+@import "../../../styles/media-queries";
+.item{
+  padding: 5px;
+  flex: 0 1 33.333%;
+  @include small-screen{
+    text-align: center;
+  }
+}
+.item:not(:last-child){
+  margin-bottom: 24px;
+}
+.title{
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+  margin-bottom: 14px;
+  @include small-screen {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+}
+.sub_title{
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--text-color);
+  @include small-screen{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

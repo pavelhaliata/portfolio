@@ -26,6 +26,7 @@ export const Skills: React.FC<PropsType> = () => {
             transition: {delay : custom * 0.2, once: true}
         })
     }
+
     const [skills, setSkills] = useState<SkillsType[]>([
         {
             id: uuid(),
@@ -43,6 +44,10 @@ export const Skills: React.FC<PropsType> = () => {
             id: uuid(),
             title: 'java script',
             subTitle: '7 months experience'
+        },{
+            id: uuid(),
+            title: 'type script',
+            subTitle: '6 months experience'
         }, {
             id: uuid(),
             title: 'react',
